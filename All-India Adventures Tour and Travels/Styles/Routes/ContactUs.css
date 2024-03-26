@@ -280,6 +280,9 @@ border-radius: 5px;
 from { text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; }
 to { text-shadow: 0 0 20px white, 0 0 30px #00f, 0 0 40px #00f; }
 }
+.navbar-toggler {
+    background-color: #fff;
+}
 .submitted {
 font-size: 40px;
 color: #fff !important;

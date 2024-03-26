@@ -24,6 +24,48 @@
     from { text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; }
     to { text-shadow: 0 0 20px blue, 0 0 30px #00f, 0 0 40px #00f; }
   }
+  .navbar-toggler {
+    background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .location-detail {
+        text-align: center;
+    }
+    .location-detail p {
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+    .location-img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .package-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 100%; /* Adjust width to fit better on small screens */
+        margin-bottom: 5px; /* Add some spacing between packages */
+    }
+    .image {
+        position: relative;
+    }
+    .box h4, .box h3, .pac-details li {
+        font-size: 25px; /* Increase font size for headings and list items */
+    }
+    .image img {
+        width: 150%; /* Ensure images take up full width of container */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .image h3 {
+        position: absolute;
+        bottom: 10px; /* Adjust position of price */
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+}
+
     </style>
 </head>
 

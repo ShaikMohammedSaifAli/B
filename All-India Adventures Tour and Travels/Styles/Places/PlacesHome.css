@@ -378,7 +378,9 @@ a {
         color: green;
     }
 }
-
+.navbar-toggler {
+    background-color: #fff;
+}
 .location-img {
     width: 33.33%;
     box-sizing: border-box;

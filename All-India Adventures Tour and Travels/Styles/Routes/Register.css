@@ -314,7 +314,9 @@ input[type="radio"][value="Goa"]+label {
     position: relative;
 
 }
-
+.navbar-toggler {
+    background-color: #fff;
+}
 #bookingId {
     width: calc(100% - 130px);
 

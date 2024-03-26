@@ -168,7 +168,9 @@ a {
         transform: scale(1);
     }
 }
-
+.navbar-toggler {
+    background-color: #fff;
+}
 iframe {
     width: 100%;
     height: 72vh;

@@ -404,7 +404,9 @@ a {
         color: #E5E4E2;
     }
 }
-
+.navbar-toggler {
+    background-color: #fff;
+}
 .drop-shadow {
     animation: dropShadow 2s infinite alternate;
 }

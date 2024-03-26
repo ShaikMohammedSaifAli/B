@@ -437,3 +437,6 @@ a {
         transform: scale(1);
     }
 }
+.navbar-toggler {
+    background-color: #fff;
+}

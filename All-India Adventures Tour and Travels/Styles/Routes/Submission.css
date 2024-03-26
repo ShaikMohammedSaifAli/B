@@ -233,7 +233,9 @@ a {
     border: none;
     background-color: transparent;
 }
-
+.navbar-toggler {
+    background-color: #fff;
+}
 .round-button:hover .nav-link {
     background-color: #333;
     color: #fff;
